@@ -4,7 +4,7 @@ body{
   font-family: 'Roboto Slab', serif;
   color: bisque;
 }
-h1,h2{
+.align{
   text-align: center;
 }
 img{
@@ -36,13 +36,14 @@ hr{
   height: 2px;
   border: none;
 }
-div{
+.indice{
   background-color: bisque;
-  padding: 5px 20px;
-  display: table;
-  border-radius: 5%;
-  margin: auto;
+  border-radius: 10%;
+  font-weight: 500;
+  padding: 25px;
+  margin: auto 500px;
 }
+
 .divTextColor{
   color: #e36910;
 }
@@ -50,5 +51,12 @@ a{
   text-decoration: none;
 }
 a:visited{
-  color: bisque;
+  color: #e36910;
+}
+.buttons_Style{
+  background: bisque;
+  border-radius: 5px;
+  color: #e36910;
+  padding: 2px 10px;
+  margin: 20px;
 }
