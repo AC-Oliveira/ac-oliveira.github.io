@@ -1,17 +1,15 @@
-*{
-  font-family: 'Roboto Slab', serif;
-  color: bisque;
-}
 body{
   background: url(https://i.pinimg.com/originals/9a/a8/a1/9aa8a117fe30c9510dd609c4c5331abd.jpg);
   background-repeat: no-repeat;
+  font-family: 'Roboto Slab', serif;
+  color: bisque;
 }
 h1,h2{
   text-align: center;
 }
 img{
   border: solid bisque 2px;
-  border-radius: 50%;
+  border-radius: 100%;
 
 }
 .img_Center{
@@ -31,6 +29,7 @@ p{
 }
 h4{
   margin: auto 3rem;
+  width: 15rem;
 }
 hr{
   background-color: #ffe4c4;
@@ -46,4 +45,10 @@ div{
 }
 .divTextColor{
   color: #e36910;
+}
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: bisque;
 }
