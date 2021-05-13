@@ -6,6 +6,8 @@ body{
 }
 .align{
   text-align: center;
+  font-weight: 800;
+  margin: auto;
 }
 img{
   border: solid bisque 2px;
@@ -41,7 +43,7 @@ hr{
   border-radius: 10%;
   font-weight: 500;
   padding: 25px;
-  margin: auto 500px;
+  margin: auto 40%;
 }
 
 .divTextColor{
@@ -59,4 +61,11 @@ a:visited{
   color: #e36910;
   padding: 2px 10px;
   margin: 20px;
+}
+.box{
+  background-color: bisque;
+  border-radius: 5%;
+  color:#e36910;
+  margin: 10px 30%;
+  padding: 10px;
 }
